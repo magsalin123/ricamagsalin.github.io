@@ -1,0 +1,88 @@
+  html, body {
+    height: 100%;
+    margin: 0;
+}
+
+  .background-cover {
+    height: 90%;
+    background: linear-gradient(#daaeae, #daaeae);
+}
+
+  .navbar {
+    overflow: hidden;
+    background-color: #913d54;
+    font-family: Arial;
+}
+
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(162, 213, 136);
+}
+
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #913d54;
+    z-index: 1;
+}
+
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+  
+  .contact-form {
+    max-width: 400px;
+    padding: 20px;
+    background-color:#913d54;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #913d54;
+}
+  
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+  .contact-form form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+  
+  .contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+  .contact-form input[type="submit"]:hover {
+    background-color: #0d39e8;
+}

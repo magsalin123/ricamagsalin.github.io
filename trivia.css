@@ -1,0 +1,142 @@
+  html, body {
+    height: 100%;
+    margin: 0;
+}
+
+  .background-cover {
+    height: 100%;
+    background: linear-gradient(#daaeae, #daaeae);
+}
+
+  .navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+  .navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+  .navbar {
+    overflow: hidden;
+    background-color: #913d54;
+    font-family:sans-serif;
+}
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+  .navbar a:hover, .dropdown:hover .dropbtton {
+    background-color: rgb(162, 213, 136);
+}
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  .column {
+    flex: 2 2 33.33%;
+    max-width: 33.33%;
+    box-sizing:border-box
+  
+}
+
+  .image {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100%;
+}
+
+  .img {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(128, 111, 111, 0.7);
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: opacity 0.3s;
+}
+
+  .overlay p {
+    font-size: 18px;
+    padding: 20px;
+}
+
+  .column:hover .image img {
+    transform: scale(1.1);
+}
+
+  .column:hover .overlay {
+    display: flex;
+}
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  .column {
+    flex: 1 1 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+
+}
+
+  .image {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100%; 
+}
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transition: transform 0.3s;
+}
+
